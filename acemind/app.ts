@@ -1,7 +1,7 @@
-function add(n1:number,n2:number){
-    return n1+n2
+function combine(input1: number, input2: number) {
+  const result = input1 + input2;
+  return result;
 }
-const number1 = '5'
-const number2 =3.6
-const result = add(+number1,+number2)
-console.log(result)
+
+const  combinedAges=combine(30,40)
+console.log(combinedAges)
